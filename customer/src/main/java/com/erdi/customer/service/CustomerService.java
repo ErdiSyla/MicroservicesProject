@@ -3,6 +3,9 @@ package com.erdi.customer.service;
 import com.erdi.customer.controller.CustomerRegistrationRequest;
 import com.erdi.customer.model.Customer;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public record CustomerService() {
 
     public void registerCustomer(CustomerRegistrationRequest request){
